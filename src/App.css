@@ -19,3 +19,16 @@ body {
   width: 320px;
   border-radius: 10px;
 }
+.text_container > h1 {
+  color: #2b283a;
+  font-size: 26px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+.text_container > p {
+  font-size: 13px;
+
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
