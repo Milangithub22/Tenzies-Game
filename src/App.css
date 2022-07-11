@@ -41,14 +41,33 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .die_num {
   font-size: 2rem;
 }
-.dir_container {
-  margin-top: 40px;
+.die_container {
   margin-inline: 20px;
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
+}
+.rollButton_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.rollButton {
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5035ff;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Karla", sans-serif;
+  cursor: pointer;
+}
+.rollButton:active {
+  box-shadow: inset 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
 }
