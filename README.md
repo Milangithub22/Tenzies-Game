@@ -1,1 +1,1 @@
-React practice project - Tenzies-Game - not finished
+React practice project - Tenzies-Game - deployed to Netlify
